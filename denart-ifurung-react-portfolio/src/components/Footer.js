@@ -1,5 +1,8 @@
 import React from "react";
 
+
+function Footer() {
+  return (
 <footer class="footer">
   <h2>Contact Information</h2>
   <ul class="links" id="contact">
@@ -22,4 +25,8 @@ import React from "react";
       </a>
     </li>
   </ul>
-</footer>;
+</footer>
+);
+}
+
+export default Footer;

@@ -36,3 +36,247 @@
     transform: rotate(360deg);
   }
 }
+
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --dark: rgb(129, 14, 14);
+  --light: ivory;
+  --secondary: rgb(102, 101, 101);
+}
+
+body {
+  background-image: url("/public/1746747.jpg");
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  padding: 10px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-between;
+  background-color: var(--dark);
+}
+
+h1 {
+  flex: 1 0;
+  flex-direction: row;
+  font-size: 60px;
+  background-image: url("/public/1746747.jpg");
+  background-size: contain;
+  color: black;
+  margin: auto;
+}
+
+.bar-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style-type: none;
+}
+.bar {
+  flex: 1;
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--light);
+  padding: 3px;
+  margin: 50px 5px 5px 0px;
+  
+}
+
+.bar:hover {
+  background-color: var(--light);
+  color: black;
+  transition-duration: 200ms;
+}
+
+.hero {
+  width: 100%;
+  height: 150px;
+  background-image: url("/public/fractal.jpg");
+  margin-bottom: 25px;
+  border: 3px solid;
+}
+
+h2 {
+  padding: 0%;
+  margin: 0%;
+  font-size: 35px;
+  border-bottom: 2px solid black;
+}
+
+.middle p {
+  font-size: 25px;
+  
+}
+.middle {
+
+  margin: auto;
+  padding: 20px;
+}
+
+img {
+  float: left;
+  /* background-image: url("/public/IMG_20220912_180626__01 (1).jpg");
+  background-size: contain; */
+  width: 160px;
+  height: 160px;
+  padding: auto;
+  margin: 15px;
+  border: 3px solid black;
+  border-radius: 80px;
+  object-fit: cover;
+}
+content {
+  display: flex;
+}
+
+.work {
+  padding: 20px;
+}
+
+.card-container {  
+  background-color: none;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 150px;
+  padding: 10px;
+  margin: 0px 50px 50px 0px;
+  height: 300px;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  background-size: contain;
+  }
+
+.card:hover {
+  box-shadow: 15px 15px 5px rgb(66, 66, 66);
+  transform: rotate(8deg);
+  transition-duration: 200ms;
+}
+
+.card title {
+  display: flex;
+  flex: 0 1;
+  flex-wrap: wrap;
+  background-color: var(--secondary); 
+  border-radius: 150px;
+  font-weight: bolder;
+  margin: 5px;
+  padding: 10px;
+  margin: auto;
+}
+
+title {
+  text-decoration: none;
+  color: var(--light);
+}
+.card p {
+  background-color: var(--secondary);
+  color:  var(--light);
+  border-radius: 150px;
+  margin: auto;
+}
+
+.one {
+  flex: 0 0 300px;
+  background-image: url("/public/screencapture-difurung-github-io-Challenge-1-Refactor-2022-10-09-18_03_01.png");
+  background-size: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none;
+}
+
+.two {
+  flex: 0 0 300px;
+  background-image: url("/public/Prework.png");
+  width: 100%;
+  background-size: contain;
+  text-decoration: none;
+}
+.three {
+  flex: 0 0 300px;
+  background-image: url("/public/BMRoulette.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  text-decoration: none;
+}
+.four {
+  flex: 1 0 300px;
+  background-image: url("/public/helpinghands.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  padding: 20px 0px 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.footer h2 {
+  margin: 22px 0 5px 0;
+  border: none;
+}
+
+.links {
+  display: flex;
+  color: var(--light);
+  font-size: 25px;
+  padding: 20px;
+  margin: 10px;
+  list-style: none;
+}
+
+.contacts {
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: var(--light);
+  font-size: 25px;
+  padding: 0px 20px 20px 0px;
+}
+
+.contacts:hover {  
+background-color: var(--light);
+  color: black; 
+  transition-duration: 200ms; 
+}
+
+@media screen and (max-width: 760px) {
+
+  .header, .footer {
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  .bar-container, .links {
+    flex-direction: column;
+    
+  }
+}

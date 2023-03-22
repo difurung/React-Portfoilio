@@ -1,6 +1,10 @@
 import React from "react";
 
-<section class="middle">
+
+
+function Interests() {
+  return (
+<div className="container">
   <h2 id="interests">Interests</h2>
   <p>
     Though I am interested in programming and web development as a whole, both
@@ -19,4 +23,8 @@ import React from "react";
     positive impact on patient morbidity and mortality, and improve clinical
     outcomes in general.
   </p>
-</section>;
+</div>
+  );
+}
+
+export default Interests;

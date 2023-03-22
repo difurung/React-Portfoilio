@@ -1,27 +1,34 @@
 import React from "react";
 
-<header class="header">
+
+function Header() {
+  return(
+<header className="header">
   <h1>Denart Ifurung</h1>
-  <ul class="bar-container">
+  <ul className="bar-container">
     <li>
-      <a class="bar" href="#about">
+      <a className="bar" href="/">
         About Me
       </a>
     </li>
     <li>
-      <a class="bar" href="#interests">
+      <a className="bar" href="/interests">
         Interests
       </a>
     </li>
     <li>
-      <a class="bar" href="#work">
+      <a className="bar" href="/portfolio">
         My Work
       </a>
     </li>
     <li>
-      <a class="bar" href="#contact">
+      <a className="bar" href="#contact">
         Contact Informaion
       </a>
     </li>
   </ul>
-</header>;
+</header>
+  );
+}
+
+export default Header;

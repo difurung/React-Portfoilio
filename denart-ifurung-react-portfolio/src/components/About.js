@@ -2,11 +2,11 @@ import React from "react";
 
 function About() {
   return (
-    <section class="middle">
+    <div className="container">
       <h2 id="about">About Me</h2>
       <img
-        src="assets/images/IMG_20220912_180626__01 (1).jpg"
-        alt="A photo of Denart Ifurung"
+        src="/public/IMG_20220912_180626__01 (1).jpg"
+        alt="Denart Ifurung"
       />
 
       <p>
@@ -21,6 +21,8 @@ function About() {
         set of distinctive challenges, I look forward to taking this journey,
         wherever it leads.
       </p>
-    </section>
+    </div>
   );
 }
+
+export default About;
