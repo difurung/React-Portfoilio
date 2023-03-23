@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/difurung/React-Portfoilio/static/css/main.2fb3729c.css",
-    "main.js": "/difurung/React-Portfoilio/static/js/main.afa4c788.js",
+    "main.js": "/difurung/React-Portfoilio/static/js/main.85c64f39.js",
     "static/js/787.c886c05d.chunk.js": "/difurung/React-Portfoilio/static/js/787.c886c05d.chunk.js",
     "static/media/challenge1refactor.png": "/difurung/React-Portfoilio/static/media/challenge1refactor.1e6b81a377c7283a14d8.png",
     "static/media/BMRoulette.png": "/difurung/React-Portfoilio/static/media/BMRoulette.29849447cdab0c39b83c.png",
@@ -11,11 +11,11 @@
     "static/media/Prework.png": "/difurung/React-Portfoilio/static/media/Prework.9dedd031142ec00db08f.png",
     "index.html": "/difurung/React-Portfoilio/index.html",
     "main.2fb3729c.css.map": "/difurung/React-Portfoilio/static/css/main.2fb3729c.css.map",
-    "main.afa4c788.js.map": "/difurung/React-Portfoilio/static/js/main.afa4c788.js.map",
+    "main.85c64f39.js.map": "/difurung/React-Portfoilio/static/js/main.85c64f39.js.map",
     "787.c886c05d.chunk.js.map": "/difurung/React-Portfoilio/static/js/787.c886c05d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2fb3729c.css",
-    "static/js/main.afa4c788.js"
+    "static/js/main.85c64f39.js"
   ]
 }
