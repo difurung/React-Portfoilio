@@ -196,7 +196,7 @@ title {
 
 .one {
   flex: 0 0 300px;
-  background-image: url("/public/screencapture-difurung-github-io-Challenge-1-Refactor-2022-10-09-18_03_01.png");
+  background-image: url(/public/challenge1refactor.png);
   background-size: 700px;
   width: 100%;
   background-repeat: no-repeat;
