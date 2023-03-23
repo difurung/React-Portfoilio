@@ -26,6 +26,11 @@ function Header() {
         Contact Me
       </a>
     </li>
+    <li>
+      <a className="bar" href="/resume">
+        Resume
+      </a>
+    </li>
   </ul>
 </header>
   );
