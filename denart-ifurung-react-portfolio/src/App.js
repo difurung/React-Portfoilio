@@ -7,6 +7,7 @@ import About from "./components/About";
 import Interests from "./components/Interests";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
+import ContactMe from './components/ContactMe';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route path="/" element={<About />} />
             <Route path="/interests" element={<Interests />} />
             <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/contacts" element={<ContactMe />} />
           </Routes>
         </div>
         <Footer />

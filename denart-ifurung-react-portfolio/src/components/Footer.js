@@ -6,12 +6,7 @@ function Footer() {
     <div>
       <footer className="footer">
         <h2>Contact Information</h2>
-        <ul className="links" id="contact">
-          <li>
-            <a className="contacts" href="mailto:dfurung@hotmail.com">
-              E-mail
-            </a>
-          </li>
+        <ul className="links" id="contact">         
           <li>
             <a className="contacts" href="https://www.github.com/difurung/">
               Github

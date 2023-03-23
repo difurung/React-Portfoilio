@@ -22,8 +22,8 @@ function Header() {
       </a>
     </li>
     <li>
-      <a className="bar" href="#contact">
-        Contact Informaion
+      <a className="bar" href="/contacts">
+        Contact Me
       </a>
     </li>
   </ul>
