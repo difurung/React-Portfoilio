@@ -5,7 +5,7 @@ function About() {
     <div className="container">
       <h2 id="about">About Me</h2>
       <img
-        src="/public/IMG_20220912_180626__01 (1).jpg"
+        src={process.env.PUBLIC_URL+"/IMG_20220912_180626__01 (1).jpg"}
         alt="Denart Ifurung"
       />
 

@@ -8,7 +8,7 @@ function Header() {
   <ul className="bar-container">
     <li>
       <a className="bar" href="/">
-        About Me
+        Home
       </a>
     </li>
     <li>

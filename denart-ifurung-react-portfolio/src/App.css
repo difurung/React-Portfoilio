@@ -124,7 +124,8 @@ h2 {
 img {
   float: left;
   /* background-image: url("/public/IMG_20220912_180626__01 (1).jpg");
-  background-size: contain; */
+  background-size: auto;  
+  background-repeat: no-repeat; */
   width: 160px;
   height: 160px;
   padding: auto;
@@ -239,9 +240,15 @@ title {
   color: var(--light);
 }
 
+.container{
+padding: 7vh 0vh 20vh 0vh
+}
+
+
 .footer h2 {
   margin: 22px 0 5px 0;
   border: none;
+  
 }
 
 .links {
