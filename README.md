@@ -14,7 +14,7 @@ This project was created as my professional portfolio. It provides my background
 
 ## Screenshot
 
-![Screenshot of portfolio](denart-ifurung-react-portfolio/public/React%20portfolio%20Screenshot.png)
+![Screenshot of portfolio](/public/React%20portfolio%20Screenshot.png)
 
 ## Access
 
