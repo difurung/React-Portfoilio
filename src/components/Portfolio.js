@@ -6,6 +6,16 @@ function Portfolio() {
       <h2 id="work">Work</h2>
       <div className="card-container">
         <a
+          href="https://cede-qr-app.herokuapp.com/"
+          className="card five"
+          alt="Picture of the CEDE Application"
+        >
+          <title>CEDE</title>
+
+          <p>javaScript, Bootstrap, React, MongoDB</p>
+        </a>
+
+        <a
           href="https://agile-peak-82285.herokuapp.com/login"
           className="card four"
           alt="Picture of the Helpinghands Application"

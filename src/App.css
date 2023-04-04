@@ -229,6 +229,14 @@ title {
   width: 100%;
   text-decoration: none;
 }
+.five {
+  flex: 0 0 300px;
+  background-image: url("/public/screencapture-cede-qr-app-herokuapp-2023-04-04-18_21_22.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  text-decoration: none;
+}
 
 .footer {
   display: flex;
