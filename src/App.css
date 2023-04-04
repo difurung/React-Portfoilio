@@ -222,7 +222,7 @@ title {
   text-decoration: none;
 }
 .four {
-  flex: 1 0 300px;
+  flex: 0 0 300px;
   background-image: url("/public/helpinghands.png");
   background-size: cover;
   background-repeat: no-repeat;

@@ -20,7 +20,7 @@ This project was created as my professional portfolio. It provides my background
 
 [Github Repository](https://github.com/difurung/React-Portfoilio)
 
-[Deployed Application](https://difurung.github.io/React-Portfoilio/)
+[Deployed Application](https://denart-react-portfolio.herokuapp.com/)
 
 ## License
 
